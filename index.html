@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our E-commerce Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#cart">Shopping Cart</a></li>
+                <li><a href="#checkout">Checkout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="products">
+        <h2>Available Products</h2>
+        <div class="product">
+            <h3>Product 1</h3>
+            <p>Description of Product 1.</p>
+            <p>Price: $10.00</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <h3>Product 2</h3>
+            <p>Description of Product 2.</p>
+            <p>Price: $20.00</p>
+            <button>Add to Cart</button>
+        </div>
+        <!-- More products can be added here -->
+    </section>
+
+    <section id="cart">
+        <h2>Your Shopping Cart</h2>
+        <p>No items in the cart.</p>
+        <!-- Summary of items will go here -->
+    </section>
+
+    <section id="checkout">
+        <h2>Checkout</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Contact us at email@example.com</p>
+    </footer>
+</body>
+</html>
