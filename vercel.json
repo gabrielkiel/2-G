@@ -1,1 +1,5 @@
-{\n  "name": "kratos-store-app"\n}\n
+{
+  "buildCommand": "echo 'Static site'", 
+  "outputDirectory": ".", 
+  "devCommand": "python3 -m http.server 3000"
+}
